@@ -156,6 +156,12 @@ body {
   letter-spacing: 0.5px;
 }
 
+.sub-title {
+  margin-bottom: 13px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 /* ========== Footer ========== */
 .site-footer {
   background: #4a5259;
@@ -196,6 +202,36 @@ body {
 }
 
 .footer-icon:hover {
+  background-color: #eeeeee;
+  color: #4a5259;
+}
+
+/* Social Icons Container */
+.social-icons {
+  display: flex;
+  gap: 13px;
+  justify-content: flex-start; /* left aligned */
+  align-items: center;
+  margin-top: 13px;
+}
+
+/* Each Icon Style */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #eeeeee; /* outline */
+  border-radius: 50%;
+  color: #eeeeee;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+/* On Hover - Filled background */
+.social-icon:hover {
   background-color: #eeeeee;
   color: #4a5259;
 }
